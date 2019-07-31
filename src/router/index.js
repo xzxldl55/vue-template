@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Xzxldl from '../components/Xzxldl'
+import Xzxldl from '../views/Xzxldl'
 
 Vue.use(Router)
 

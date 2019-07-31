@@ -6,7 +6,18 @@
 
 <script>
     export default {
-        name: 'xzxldl'
+        name: 'xzxldl',
+        data () {
+            return {
+
+            }
+        },
+        mounted () {
+
+        },
+        created () {
+
+        }
     }
 </script>
 

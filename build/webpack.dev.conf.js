@@ -93,3 +93,21 @@ module.exports = new Promise((resolve, reject) => {
     }
   })
 })
+
+
+
+// koa
+
+const Koa = require('koa')
+const router = require('koa-router')()
+
+const app = new Koa()
+router.get('/api/test', ctx => {
+  ctx.body = {
+    status: '200',
+    data: {
+      msg: 'test'
+    }
+  }
+})
+app.use(router.routes()).listen('9000')
